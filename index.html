@@ -1415,6 +1415,38 @@ body.lecture-locked .stage *{animation-play-state:paused!important}
 @media(prefers-reduced-motion:reduce){.launch-device,.launch-copy,.launch-domain::after,.launch-device::after,.launch-sweep::after{animation:none!important}}
 
 body.lecture-opening>:not(#milkit-launch):not(script):not(style){visibility:hidden!important;pointer-events:none!important}body.lecture-opening .stage *{animation-play-state:paused!important}
+</style><style id="bright-toss-entry">
+/* Bright entry screen aligned with the presentation's Toss-inspired palette. */
+body.lecture-locked{background:#f7f9fc!important}
+#lecture-gate{background:radial-gradient(ellipse at 75% 15%,#e8f3ff 0,transparent 58%),#f7f9fc;color:#191f28}
+.gate-card{background:#fff;border:1px solid #edf1f6;border-radius:28px;padding:40px 36px 26px;box-sizing:border-box;width:min(510px,92vw);box-shadow:0 16px 60px #1b3b6b0a}
+.gate-mark{background:#e8f3ff;border:0;border-radius:22px}
+.gate-mark svg{stroke:#3182f6}
+.gate-brand{color:#3182f6;font-weight:750;font-size:13px;letter-spacing:.18em}
+.gate-card h1{color:#191f28;font-size:clamp(25px,2.6vw,32px);margin-bottom:30px}
+.gate-card label{color:#4e5968;font-weight:650}
+.gate-card input{background:#f2f4f6;border:2px solid transparent;color:#191f28;border-radius:16px;transition:border-color .2s,box-shadow .2s,background .2s}
+.gate-card input::placeholder{color:#8b95a1}
+.gate-card input:focus{background:#fff;border-color:#3182f6;box-shadow:0 0 0 4px #3182f614}
+.gate-card input[aria-invalid=true]{border-color:#f04452}
+.gate-card button{background:#3182f6;box-shadow:none;transition:background .2s,transform .15s}
+.gate-card button:hover{background:#1b64da}
+.gate-card button:active{transform:scale(.985)}
+.gate-error{color:#e34753}
+#milkit-launch{background:radial-gradient(ellipse at 77% 45%,#dceeff 0,#f1f7ff 40%,#fff 76%);color:#191f28}
+#milkit-launch::before{opacity:.28;background-image:linear-gradient(#3182f60b 1px,transparent 1px),linear-gradient(90deg,#3182f60b 1px,transparent 1px)}
+.launch-kicker{color:#3182f6;font-weight:750}
+.launch-copy h2{color:#191f28}
+.launch-copy h2 span{color:#3182f6!important}
+.launch-copy p{color:#4e5968}
+.launch-domain{color:#3182f6}
+.launch-domain::after{background:linear-gradient(90deg,#3182f6,#8cc3ff)}
+.launch-caption{color:#6b7684}
+.launch-device{filter:drop-shadow(0 24px 45px #315a8c24)}
+.launch-device img{border-color:#d5e5f6}
+.launch-device::after{border-color:#8ec2ff;box-shadow:0 0 20px #3182f624,0 0 65px #3182f612}
+.launch-skip{color:#1b64da;background:#fff;border-color:#d4e4f7;box-shadow:0 4px 16px #1b3b6b06}
+@media(max-width:520px){.gate-card{padding:32px 24px 20px}}
 </style></head><body class="lecture-locked"><main class="deck" inert><div class="stage"><div id="progress"></div><section class="slide cover on" data-final="1" data-note="소개 약 20초. 군 생활을 부정하기보다, 경험이 전역 후 기회로 이어지도록 돕겠다는 취지를 전달합니다. 원래 방탄모에 재료를 담기 → 열기와 주걱으로 함께 조리 → 나만의 밀키트 완성 → 실제 서비스 화면. 22초 반복, 모션 일시정지 가능. 요리는 서비스의 비유적 연출입니다."><div class="eyebrow">01 MIL-KIT PROJECT</div><h2>밀키트 <em>Mil-Kit</em></h2><div class="body"><p class="lead">군 생활, 진로 고민 이제 그만</p><div class="rule"></div><p class="promise">당신의 군 생활이<br/><strong>시간 낭비로 남지 않도록!</strong></p><p class="muted">군 복무 경험을 재료 삼아, 전역 후 진로 코스를 함께 준비</p></div><footer class="foot"><span>Mil-Kit · 군 생활, 진로 고민 이제 그만</span><span>01 / 25</span></footer><div aria-label="군 생활의 경험과 고민을 원래 방탄모에 담고, 재료를 함께 요리한 뒤 밀키트가 완성되어 실제 진로 서비스 화면으로 이어지는 반복 모션" class="hero-motion"><span class="ingredient" style="--i:0;--x:-95px">꿈</span><span class="ingredient" style="--i:1;--x:0px">진로</span><span class="ingredient" style="--i:2;--x:95px">미래</span><span class="ingredient" style="--i:3;--x:-95px">설계</span><span class="ingredient" style="--i:4;--x:0px">고민</span><span class="ingredient" style="--i:5;--x:95px">걱정</span><span class="ingredient" style="--i:6;--x:-95px">일자리</span><svg aria-label="밀키트 웹앱 원본 방탄모: 위장무늬와 턱끈, 위로 열린 입구" class="helmet original-helmet" viewbox="0 0 200 170"><g class="steam"><path class="st st0" d="M62 56c-9-11 8-17 0-29s8-17 1-27" fill="none" stroke="#3E8E41" stroke-linecap="round" stroke-width="7"></path><path class="st st1" d="M87 56c-9-11 8-17 0-29s8-17 1-27" fill="none" stroke="#1D4ED8" stroke-linecap="round" stroke-width="7"></path><path class="st st2" d="M112 56c-9-11 8-17 0-29s8-17 1-27" fill="none" stroke="#38BDF8" stroke-linecap="round" stroke-width="7"></path><path class="st st3" d="M137 56c-9-11 8-17 0-29s8-17 1-27" fill="none" stroke="#EF4444" stroke-linecap="round" stroke-width="7"></path></g><defs><clippath id="chelmet"><path d="M26 66 Q24 150 100 152 Q176 150 174 66 Z"></path></clippath><radialgradient cx=".35" cy=".3" id="chelmetg" r=".9"><stop offset="0" stop-color="#fff" stop-opacity=".18"></stop><stop offset="1" stop-color="#000" stop-opacity=".25"></stop></radialgradient></defs>
 <path d="M40 74 Q8 92 22 118 Q30 128 44 116" fill="none" stroke="#5E6B3A" stroke-linecap="round" stroke-width="6"></path>
 <path d="M160 74 Q192 92 178 118 Q170 128 156 116" fill="none" stroke="#5E6B3A" stroke-linecap="round" stroke-width="6"></path>
