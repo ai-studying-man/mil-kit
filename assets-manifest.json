@@ -1042,5 +1042,11 @@
     "mime": "text/css",
     "bytes": 6978,
     "sha256": "fada2831760b17a9c264f4b6e71096d790823affffaeb2638fd2cd5f3c062a87"
+  },
+  {
+    "path": "assets/images/milkit-home-launch.jpg",
+    "mime": "image/jpeg",
+    "bytes": 27819,
+    "sha256": "1371db4bbd3be5e07045ee18f7a7ae2110630e16653acae5c5cc09218be3870d"
   }
 ]
