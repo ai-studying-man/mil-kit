@@ -1018,5 +1018,29 @@
     "mime": "image/jpeg",
     "bytes": 507789,
     "sha256": "056e6904b073cd26754295d38997ec41e41d05c911f7eec914339c3edf447bbf"
+  },
+  {
+    "path": "assets/community/board.html",
+    "mime": "text/html",
+    "bytes": 84438,
+    "sha256": "3849a28522f1eb03249c4a18a66f7eb101abb4fd9d7ce20cb1638d5b3e34448e"
+  },
+  {
+    "path": "assets/community/board-mock.js",
+    "mime": "text/javascript",
+    "bytes": 11849,
+    "sha256": "3d9cc8b9a72790ab604d74e154872e19a36e4e0e4271f8fd9536ce3b0eadcd93"
+  },
+  {
+    "path": "assets/community/board.js",
+    "mime": "text/javascript",
+    "bytes": 15821,
+    "sha256": "ab50cf0657a9cde9237d0c6f81990b7b47d8befe2d7439cc4e423a3b9ab7e394"
+  },
+  {
+    "path": "assets/community/board.css",
+    "mime": "text/css",
+    "bytes": 6978,
+    "sha256": "fada2831760b17a9c264f4b6e71096d790823affffaeb2638fd2cd5f3c062a87"
   }
 ]
