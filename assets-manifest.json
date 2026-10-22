@@ -1012,5 +1012,11 @@
     "mime": "audio/mpeg",
     "bytes": 23451942,
     "sha256": "7268a2b79a28b2dff35acc3d8875f121857a903c7d176fcf8eae6fcf3ec96323"
+  },
+  {
+    "path": "assets/images/manager-20261022.jpg",
+    "mime": "image/jpeg",
+    "bytes": 507789,
+    "sha256": "056e6904b073cd26754295d38997ec41e41d05c911f7eec914339c3edf447bbf"
   }
 ]
